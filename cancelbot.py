@@ -1,7 +1,7 @@
 from linepy import *
 import time
 
-cl = LINE('apaankeek18@gmail.com','Muhamad18')
+cl = LINE('linea05@yandex.com','NBA2k190')
 #cl = LINE('EunGJlvq37U5sDc2Xjp1.r7LQgKdASAz0gOQcFUAR4q.zO3QLPsg5MJojipCN1goRhUWX/AxEOQ+3X2DfcenY04=')
 
 #cl.log("Auth Token : " + str(line.authToken))
@@ -31,7 +31,7 @@ while True:
                                 cl.cancelGroupInvitation(msg.to,[mid])
                             except Exception as e:
                                 pass
-                        cl.sendMessage(msg.to,'Done!\nline://ti/p/~heefpuy')
+                        cl.sendMessage(msg.to,'Done!\nline://ti/p/~')
                         cl.leaveGroup(msg.to)
                 poll.setRevision(op.revision)
     except Exception as e:
